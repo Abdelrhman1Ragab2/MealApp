@@ -112,6 +112,7 @@ import 'meal.dart';
   Meal(
     id: 'm2',
     categories: [
+      'c1',
       'c2',
     ],
     title: 'Toast Hawaii',
@@ -142,6 +143,7 @@ import 'meal.dart';
     categories: [
       'c2',
       'c3',
+      'c1'
     ],
     title: 'Classic Hamburger',
     affordability: Affordability.Pricey,
@@ -173,6 +175,7 @@ import 'meal.dart';
     id: 'm4',
     categories: [
       'c4',
+      'c1'
     ],
     title: 'Wiener Schnitzel',
     affordability: Affordability.Luxurious,

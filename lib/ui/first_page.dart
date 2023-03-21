@@ -8,7 +8,11 @@ class FirstPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text("Meal App"),
+        elevation: 200,
+        backgroundColor: Colors.blueGrey,
+      ),
       body: CategeoryScrean(),
     );
   }
