@@ -11,7 +11,6 @@ class FirstPage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Meal App"),
         elevation: 200,
-        backgroundColor: Colors.blueGrey,
       ),
       body: CategeoryScrean(),
     );
