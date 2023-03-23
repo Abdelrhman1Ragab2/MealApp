@@ -91,7 +91,7 @@ class CustomDrawer extends StatelessWidget {
         ),),
         leading: iconData,
         onTap: () => onSelectedItem(context, routeName),
-        iconColor: Colors.blueGrey,
+        iconColor: Colors.white,
         textColor: Colors.white,
       ),
     );
