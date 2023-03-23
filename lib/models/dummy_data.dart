@@ -76,6 +76,7 @@ import 'meal.dart';
 
  List<Meal>DUMMY_MEALS =  [
   Meal(
+    isFavorite: false,
     id: 'm1',
     categories: [
       'c1',
@@ -110,6 +111,7 @@ import 'meal.dart';
     isLactoseFree: true,
   ),
   Meal(
+    isFavorite: false,
     id: 'm2',
     categories: [
       'c1',
@@ -139,6 +141,7 @@ import 'meal.dart';
     isLactoseFree: false,
   ),
   Meal(
+    isFavorite: false,
     id: 'm3',
     categories: [
       'c2',
@@ -172,6 +175,7 @@ import 'meal.dart';
     isLactoseFree: true,
   ),
   Meal(
+    isFavorite: false,
     id: 'm4',
     categories: [
       'c4',
@@ -208,6 +212,7 @@ import 'meal.dart';
     isLactoseFree: false,
   ),
   Meal(
+    isFavorite: false,
     id: 'm5',
     categories: [
       'c2'
@@ -244,6 +249,7 @@ import 'meal.dart';
     isLactoseFree: true,
   ),
   Meal(
+    isFavorite: false,
     id: 'm6',
     categories: [
       'c6',
@@ -280,6 +286,7 @@ import 'meal.dart';
     isLactoseFree: false,
   ),
   Meal(
+    isFavorite: false,
     id: 'm7',
     categories: [
       'c7',
@@ -311,6 +318,7 @@ import 'meal.dart';
     isLactoseFree: false,
   ),
   Meal(
+    isFavorite: false,
     id: 'm8',
     categories: [
       'c8',
@@ -344,6 +352,7 @@ import 'meal.dart';
     isLactoseFree: true,
   ),
   Meal(
+    isFavorite: false,
     id: 'm9',
     categories: [
       'c9',
@@ -393,6 +402,7 @@ import 'meal.dart';
     isLactoseFree: false,
   ),
   Meal(
+    isFavorite: false,
     id: 'm10',
     categories: [
       'c2',

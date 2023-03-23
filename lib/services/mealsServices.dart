@@ -8,6 +8,18 @@ class MealsServices {
     }).toList();
   }
 
+  List<Meal> filterMealsByFavoriteMealsId(List<Meal> meals, List<String> mealsId) {
+    List<Meal> Favoritemeals=[];
+    Favoritemeals.addAll( meals.where((element) {
+      return mealsId.contains(element.id);
+    }).toList());
+     print("Favorite meals :  $Favoritemeals");
+    print("all meals :  $meals");
+    print("Meals ids :  $mealsId");
+    return Favoritemeals;
+
+  }
+
   Meal filterMealByMealId(List<Meal> meals, String mealId) {
     return meals.firstWhere((element) {
       return element.id==mealId;

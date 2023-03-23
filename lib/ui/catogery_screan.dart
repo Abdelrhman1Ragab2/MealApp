@@ -21,7 +21,7 @@ class CategeoryScrean extends StatelessWidget {
       child: GridView.builder(
         itemBuilder: (context, index) =>
             categoryItem(context, DUMMY_CATEGORIES[index]),
-        gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+        gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
             maxCrossAxisExtent: 200,
             childAspectRatio: 2 / 6,
             crossAxisSpacing: 20,
@@ -37,11 +37,17 @@ class CategeoryScrean extends StatelessWidget {
       onTap: () => selectCategory(context, category),
       child: Column(
         children: [
-          Image.network(
-            category.imageUrl,
-            fit: BoxFit.cover,
-            height: 170,
-            width: 170,
+          Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(30),
+              color: Colors.grey,
+            ),
+            child: Image.network(
+              category.imageUrl,
+              fit: BoxFit.fill,
+              height: 170,
+              width: 170,
+            ),
           ),
           SizedBox(
             height: 5,

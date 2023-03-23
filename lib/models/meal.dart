@@ -2,6 +2,8 @@ import 'dart:core';
 
 import 'dart:core';
 
+import 'dart:ui';
+
 enum Complexity{
   Simple,
   Challenging,
@@ -30,6 +32,7 @@ class Meal {
   bool isVegan;
   bool isVegetarian;
   bool isLactoseFree;
+  bool isFavorite;
   List<String> steps;
 
   Meal({
@@ -45,7 +48,8 @@ class Meal {
     required this.isGlutenFree,
     required this.isLactoseFree,
     required this.isVegan,
-    required this.isVegetarian
+    required this.isVegetarian,
+    required this.isFavorite,
 
   });
 }
