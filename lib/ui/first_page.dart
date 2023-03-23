@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:meal_app/providers/bottom_provider.dart';
 import 'package:provider/provider.dart';
 
+import '../Widget/drawer.dart';
 import 'catogery_screan.dart';
 import 'favorite_screen.dart';
 
@@ -13,6 +14,7 @@ class FirstPage extends StatelessWidget {
   Widget build(BuildContext context) {
     //print(Provider.of<BottomProvider>(context).currentIndex);
     return Scaffold(
+
       bottomNavigationBar: BottomNavigationBar(
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.category),label: "Category"),
@@ -25,6 +27,7 @@ class FirstPage extends StatelessWidget {
         title: const Text("Meal App"),
         elevation: 200,
       ),
+      drawer: CustomDrawer() ,
       body:  bottomPage[Provider.of<BottomProvider>(context).currentIndex],
     );
   }

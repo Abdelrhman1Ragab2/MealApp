@@ -72,6 +72,7 @@ import 'meal.dart';
     imageUrl:
 "https://hips.hearstapps.com/hmg-prod/images/pork-pineapple-and-onion-skewers-1643668721.jpg?crop=1.00xw:0.502xh;0,0.158xh&resize=1200:*"
   ),
+
 ];
 
  List<Meal>DUMMY_MEALS =  [
