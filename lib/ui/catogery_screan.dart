@@ -25,10 +25,10 @@ class CategeoryScrean extends StatelessWidget {
             categoryItem(context, DUMMY_CATEGORIES[index]),
         gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
             maxCrossAxisExtent: 200,
-            childAspectRatio: 2 / 6,
+            //childAspectRatio: 2 / 6,
             crossAxisSpacing: 20,
             mainAxisExtent: 200,
-            mainAxisSpacing: 30),
+            mainAxisSpacing: 20),
         itemCount: DUMMY_CATEGORIES.length,
       ),
     );
@@ -51,7 +51,7 @@ class CategeoryScrean extends StatelessWidget {
               width: 170,
             ),
           ),
-          SizedBox(
+         const SizedBox(
             height: 5,
           ),
           Text(

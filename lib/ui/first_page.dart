@@ -8,6 +8,7 @@ import 'favorite_screen.dart';
 
 class FirstPage extends StatelessWidget {
    FirstPage({Key? key}) : super(key: key);
+   static const routeName="FirstPage";
   List bottomPage= [const CategeoryScrean(),FavoriteScreen()];
 
   @override

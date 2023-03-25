@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:meal_app/ui/first_page.dart';
 import 'package:meal_app/ui/info_screen.dart';
 import 'package:meal_app/ui/settings.dart';
 
@@ -41,7 +42,7 @@ class CustomDrawer extends StatelessWidget {
                  const Icon(
                     Icons.home_rounded,
                   ),
-                  context,"/"),
+                  context,FirstPage.routeName),
               const SizedBox(height: 10,),
               buildListTitle(
                   "Filtration",
